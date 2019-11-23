@@ -15,6 +15,8 @@ import argparse
 from .AuthContainer import AuthContainer, ContainerException
 from .clients import SessionException
 
+__version__ = "0.5.0"
+
 LOGGER = logging.getLogger('katprep_shared')
 """
 logging: Logger instance

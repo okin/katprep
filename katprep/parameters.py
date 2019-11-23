@@ -12,15 +12,13 @@ import argparse
 import logging
 import json
 import getpass
-from . import get_credentials, validate_filters, get_filter
+from . import __version__, get_credentials, validate_filters, get_filter
 from .clients.ForemanAPIClient import ForemanAPIClient
 from .clients import EmptySetException, SessionException, \
 InvalidCredentialsException, UnsupportedRequestException, \
 UnsupportedFilterException
 
 
-
-__version__ = "0.5.0"
 """
 str: Program version
 """
